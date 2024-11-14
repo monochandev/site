@@ -1,0 +1,26 @@
+.main-container-impl {
+    background-color: rgba(27, 28, 28, 0.11);
+    backdrop-filter: grayscale(40%) brightness(70%);
+    -webkit-backdrop-filter: grayscale(40%) brightness(70%);
+    padding: 3px 5px;
+    border-color: #584e96;
+    border-style: dashed;
+    border-width: 2px;
+    max-width: min(40%, 414px);
+    transition: background 0.2s ease-in-out;
+}
+
+.main-container-impl:hover {
+    background-color: rgba(27, 28, 28, 0.27);
+    transition: background 0.2s ease-in-out;
+}
+
+.fancy-header {
+    color: #b3abff;
+    text-decoration: underline;
+    font-family: monoPixel, monospace;
+}
+
+.second-main {
+    margin: min(max(15px, 0.5%), 2%) auto auto;
+}

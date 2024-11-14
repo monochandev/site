@@ -1,0 +1,16 @@
+.main-container-impl {
+    background-color: rgba(27, 28, 28, 0.53);
+    backdrop-filter: grayscale(40%) brightness(70%);
+    -webkit-backdrop-filter: grayscale(40%) brightness(70%);
+    padding: 3px 5px;
+    border-color: #584e96;
+    border-style: dashed;
+    border-width: 2px;
+    max-width: max(40%, 414px);
+}
+
+.monospace {
+    font-family: monospace;
+    white-space: pre-line;
+    word-wrap: anywhere;
+}
